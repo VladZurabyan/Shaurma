@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CD8BB6DABD77451C8BB24B1 /* Pods_shaurma.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76DCC8D42AD31B850AA12F6 /* Pods_shaurma.framework */; };
+		84234AE924DC42700044BD85 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84234AE824DC42700044BD85 /* AddViewController.swift */; };
+		8425AB4024DE9452009C6821 /* CustomMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425AB3F24DE9452009C6821 /* CustomMarkerView.swift */; };
+		8425AB4224DE94DD009C6821 /* MarkerPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425AB4124DE94DD009C6821 /* MarkerPreviewView.swift */; };
+		8425AB4424DE9654009C6821 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425AB4324DE9654009C6821 /* DetailViewController.swift */; };
+		842C042F24E1DC28002D6C68 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C042E24E1DC28002D6C68 /* Model.swift */; };
+		8431DC1E24E13B6900FCD899 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8431DC1D24E13B6900FCD899 /* CommentViewController.swift */; };
+		8434006324DBEF6F0049944B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434006224DBEF6F0049944B /* AppDelegate.swift */; };
+		8434006524DBEF6F0049944B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434006424DBEF6F0049944B /* SceneDelegate.swift */; };
+		8434006724DBEF6F0049944B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434006624DBEF6F0049944B /* ViewController.swift */; };
+		8434006A24DBEF6F0049944B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8434006824DBEF6F0049944B /* Main.storyboard */; };
+		8434006C24DBEF750049944B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8434006B24DBEF750049944B /* Assets.xcassets */; };
+		8434006F24DBEF750049944B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8434006D24DBEF750049944B /* LaunchScreen.storyboard */; };
+		84C2D0E324E162E800C7E969 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2D0E224E162E800C7E969 /* CommentTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		715FC985C879320FCFA72143 /* Pods-shaurma.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shaurma.release.xcconfig"; path = "Target Support Files/Pods-shaurma/Pods-shaurma.release.xcconfig"; sourceTree = "<group>"; };
+		84234AE824DC42700044BD85 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		8425AB3F24DE9452009C6821 /* CustomMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMarkerView.swift; sourceTree = "<group>"; };
+		8425AB4124DE94DD009C6821 /* MarkerPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerPreviewView.swift; sourceTree = "<group>"; };
+		8425AB4324DE9654009C6821 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		842C042E24E1DC28002D6C68 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8431DC1D24E13B6900FCD899 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		8434005F24DBEF6F0049944B /* shaurma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shaurma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8434006224DBEF6F0049944B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8434006424DBEF6F0049944B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8434006624DBEF6F0049944B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8434006924DBEF6F0049944B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8434006B24DBEF750049944B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8434006E24DBEF750049944B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8434007024DBEF750049944B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C2D0E224E162E800C7E969 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		CF25A037523D35386EFD0FE6 /* Pods-shaurma.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shaurma.debug.xcconfig"; path = "Target Support Files/Pods-shaurma/Pods-shaurma.debug.xcconfig"; sourceTree = "<group>"; };
+		F76DCC8D42AD31B850AA12F6 /* Pods_shaurma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shaurma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8434005C24DBEF6F0049944B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD8BB6DABD77451C8BB24B1 /* Pods_shaurma.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		124BA24B4092952BD6012C87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF25A037523D35386EFD0FE6 /* Pods-shaurma.debug.xcconfig */,
+				715FC985C879320FCFA72143 /* Pods-shaurma.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8434005624DBEF6F0049944B = {
+			isa = PBXGroup;
+			children = (
+				8434006124DBEF6F0049944B /* shaurma */,
+				8434006024DBEF6F0049944B /* Products */,
+				124BA24B4092952BD6012C87 /* Pods */,
+				BDF710D1B37393C9E2D6FD03 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8434006024DBEF6F0049944B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8434005F24DBEF6F0049944B /* shaurma.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8434006124DBEF6F0049944B /* shaurma */ = {
+			isa = PBXGroup;
+			children = (
+				8434006224DBEF6F0049944B /* AppDelegate.swift */,
+				8434006424DBEF6F0049944B /* SceneDelegate.swift */,
+				8434006624DBEF6F0049944B /* ViewController.swift */,
+				842C042E24E1DC28002D6C68 /* Model.swift */,
+				8425AB3F24DE9452009C6821 /* CustomMarkerView.swift */,
+				8425AB4124DE94DD009C6821 /* MarkerPreviewView.swift */,
+				8425AB4324DE9654009C6821 /* DetailViewController.swift */,
+				84234AE824DC42700044BD85 /* AddViewController.swift */,
+				8431DC1D24E13B6900FCD899 /* CommentViewController.swift */,
+				84C2D0E224E162E800C7E969 /* CommentTableViewCell.swift */,
+				8434006824DBEF6F0049944B /* Main.storyboard */,
+				8434006B24DBEF750049944B /* Assets.xcassets */,
+				8434006D24DBEF750049944B /* LaunchScreen.storyboard */,
+				8434007024DBEF750049944B /* Info.plist */,
+			);
+			path = shaurma;
+			sourceTree = "<group>";
+		};
+		BDF710D1B37393C9E2D6FD03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F76DCC8D42AD31B850AA12F6 /* Pods_shaurma.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8434005E24DBEF6F0049944B /* shaurma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8434007324DBEF750049944B /* Build configuration list for PBXNativeTarget "shaurma" */;
+			buildPhases = (
+				788AB3AB0970C904DA020B62 /* [CP] Check Pods Manifest.lock */,
+				8434005B24DBEF6F0049944B /* Sources */,
+				8434005C24DBEF6F0049944B /* Frameworks */,
+				8434005D24DBEF6F0049944B /* Resources */,
+				E839374784F85BED1B57A5B3 /* [CP] Copy Pods Resources */,
+				C2EBB6B4442D3F20A96DC399 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shaurma;
+			productName = shaurma;
+			productReference = 8434005F24DBEF6F0049944B /* shaurma.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8434005724DBEF6F0049944B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					8434005E24DBEF6F0049944B = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 8434005A24DBEF6F0049944B /* Build configuration list for PBXProject "shaurma" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8434005624DBEF6F0049944B;
+			productRefGroup = 8434006024DBEF6F0049944B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8434005E24DBEF6F0049944B /* shaurma */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8434005D24DBEF6F0049944B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8434006F24DBEF750049944B /* LaunchScreen.storyboard in Resources */,
+				8434006C24DBEF750049944B /* Assets.xcassets in Resources */,
+				8434006A24DBEF6F0049944B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		788AB3AB0970C904DA020B62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shaurma-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2EBB6B4442D3F20A96DC399 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shaurma/Pods-shaurma-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shaurma/Pods-shaurma-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-shaurma/Pods-shaurma-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E839374784F85BED1B57A5B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shaurma/Pods-shaurma-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shaurma/Pods-shaurma-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-shaurma/Pods-shaurma-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8434005B24DBEF6F0049944B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8431DC1E24E13B6900FCD899 /* CommentViewController.swift in Sources */,
+				8425AB4024DE9452009C6821 /* CustomMarkerView.swift in Sources */,
+				8425AB4224DE94DD009C6821 /* MarkerPreviewView.swift in Sources */,
+				8434006724DBEF6F0049944B /* ViewController.swift in Sources */,
+				84C2D0E324E162E800C7E969 /* CommentTableViewCell.swift in Sources */,
+				842C042F24E1DC28002D6C68 /* Model.swift in Sources */,
+				8434006324DBEF6F0049944B /* AppDelegate.swift in Sources */,
+				84234AE924DC42700044BD85 /* AddViewController.swift in Sources */,
+				8434006524DBEF6F0049944B /* SceneDelegate.swift in Sources */,
+				8425AB4424DE9654009C6821 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8434006824DBEF6F0049944B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8434006924DBEF6F0049944B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8434006D24DBEF750049944B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8434006E24DBEF750049944B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8434007124DBEF750049944B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8434007224DBEF750049944B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8434007424DBEF750049944B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF25A037523D35386EFD0FE6 /* Pods-shaurma.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SZ9T9P8Q9;
+				INFOPLIST_FILE = shaurma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaurma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8434007524DBEF750049944B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 715FC985C879320FCFA72143 /* Pods-shaurma.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SZ9T9P8Q9;
+				INFOPLIST_FILE = shaurma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaurma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8434005A24DBEF6F0049944B /* Build configuration list for PBXProject "shaurma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8434007124DBEF750049944B /* Debug */,
+				8434007224DBEF750049944B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8434007324DBEF750049944B /* Build configuration list for PBXNativeTarget "shaurma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8434007424DBEF750049944B /* Debug */,
+				8434007524DBEF750049944B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8434005724DBEF6F0049944B /* Project object */;
+}

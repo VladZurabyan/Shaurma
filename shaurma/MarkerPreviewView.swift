@@ -11,18 +11,19 @@ import UIKit
 
 class MarkerPreviewView: UIView {
     
-    override init(frame: CGRect) {
+        override init(frame: CGRect) {
         super.init(frame: frame)
         self.backgroundColor=UIColor.clear
+        //self.frame.size = CGSize(width: 330, height: 200)
+            self.frame.size = CGSize(width: 150, height: 100)
         self.clipsToBounds=true
         self.layer.masksToBounds=true
         setupViews()
     }
     
-    func setData(title: String, img: UIImage, price: Int) {
+    func setData(title: String, img: UIImage) {
         lblTitle.text = title
         imgView.image = img
-        lblPrice.text = "$\(price)"
     }
     
     func setupViews() {
@@ -43,12 +44,6 @@ class MarkerPreviewView: UIView {
         imgView.topAnchor.constraint(equalTo: lblTitle.bottomAnchor).isActive=true
         imgView.rightAnchor.constraint(equalTo: rightAnchor).isActive=true
         imgView.bottomAnchor.constraint(equalTo: bottomAnchor).isActive=true
-        
-        addSubview(lblPrice)
-        lblPrice.centerXAnchor.constraint(equalTo: centerXAnchor).isActive=true
-        lblPrice.centerYAnchor.constraint(equalTo: imgView.centerYAnchor).isActive=true
-        lblPrice.widthAnchor.constraint(equalToConstant: 90).isActive=true
-        lblPrice.heightAnchor.constraint(equalToConstant: 40).isActive=true
     }
     
     let containerView: UIView = {
@@ -67,23 +62,13 @@ class MarkerPreviewView: UIView {
     let lblTitle: UILabel = {
         let lbl=UILabel()
         lbl.text = "Name"
-        lbl.font=UIFont.boldSystemFont(ofSize: 28)
+        lbl.font=UIFont.boldSystemFont(ofSize: 20)
+        lbl.numberOfLines = 0;
+        lbl.minimumScaleFactor = 0.5;
+        lbl.adjustsFontSizeToFitWidth = true;
         lbl.textColor = UIColor.black
         lbl.backgroundColor = UIColor.white
         lbl.textAlignment = .center
-        lbl.translatesAutoresizingMaskIntoConstraints=false
-        return lbl
-    }()
-    
-    let lblPrice: UILabel = {
-        let lbl=UILabel()
-        lbl.text="$12"
-        lbl.font=UIFont.boldSystemFont(ofSize: 32)
-        lbl.textColor=UIColor.white
-        lbl.backgroundColor=UIColor(white: 0.2, alpha: 0.8)
-        lbl.textAlignment = .center
-        lbl.layer.cornerRadius = 5
-        lbl.clipsToBounds=true
         lbl.translatesAutoresizingMaskIntoConstraints=false
         return lbl
     }()
